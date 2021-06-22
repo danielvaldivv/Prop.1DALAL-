@@ -53,7 +53,7 @@ body {
 .main .main_inicio {
   width: 100%;
   height: 40vh;
-  background-image: url("/.assets/imgs/frutos-peq.jpg");
+  background-image: url("./assets/imgs/frutos-peq.jpg");
   background-repeat:no-repeat;
   background-size: auto;
   background-position:center;
