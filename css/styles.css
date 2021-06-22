@@ -99,6 +99,7 @@ body {
 }
 .main .main-pilares_cajas {
   width: 90%;
+  max-width: 340px;
   height: 150px;
   margin: 0 auto;
 }
@@ -148,27 +149,27 @@ body {
   background-size:cover;
   background-position:center;
 }
-.main-mensaje {
-  width: 100%;
+.main .main-mensaje {
+  width: 90%;
+  max-width: 340px;
   height: 20vh;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
   background-color: var(--color-claro);
 }
 .main-mensaje h1{
-text-align: center;
-font-size: 1.8rem;
-padding: 20px;
-color: var(--color-primario);
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 20px;
+  color: var(--color-primario);
 }
 .main .main-recetas {
   width: 100%;
+  max-width: 340px;
   height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
   background-image: url("../assets/imgs/receta-peq.jpg");
   background-repeat:no-repeat;
   background-size:cover;
@@ -188,5 +189,31 @@ color: var(--color-primario);
 .main .main-recetas a {
   text-decoration: none;
   text-align: center;
+  color: var(--color-claro);
+}
+.main-consciente {
+  width: 100%;
+  height: 60vh;
+  background-color: var(--color-primario);
+}
+.main-consciente .main-consciente_titulo {
+  width: auto;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 1.9rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+}
+.main-consciente .main-consciente_parrafo {
+  width: auto;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.8rem;
   color: var(--color-claro);
 }
