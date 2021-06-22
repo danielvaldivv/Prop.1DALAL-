@@ -193,7 +193,7 @@ body {
 }
 .main-consciente {
   width: 100%;
-  height: 380px;
+  height: 300px;
   background-color: var(--color-primario);
 }
 .main-consciente .main-consciente_titulo {
@@ -212,8 +212,12 @@ body {
   height: 150px;
   margin: 0 auto;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
   font-size: 1.8rem;
   color: var(--color-claro);
+}
+.main-consciente .main-consciente_parrafo p {
+width: 260px;
+height: 80px;
+text-align: center;
+margin: 0 auto;
 }
