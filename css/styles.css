@@ -328,6 +328,7 @@ font-weight: 700;
 .main-tiempo h1 {
   max-width: 380px;
   height: 100px;
+  margin: 0 auto;
   text-align: center;
   display: flex;
   justify-content: center;
