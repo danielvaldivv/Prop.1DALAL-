@@ -101,8 +101,8 @@ body {
   height: auto;
 }
 .main .main-pilares_cajas {
-  width: 90%;
-  max-width: 340px;
+  width: 96%;
+  max-width: 425px;
   height: 150px;
   margin: 0 auto;
 }
@@ -163,7 +163,7 @@ body {
   background-color: var(--color-secundario);
 }
 .main-mensaje h1{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   font-size: 1.8rem;
@@ -172,8 +172,8 @@ body {
   color: var(--color-primario);
 }
 .main .main-recetas {
-  width: 90%;
-  max-width: 340px;
+  width: 95%;
+  max-width: 420px;
   height: 40vh;
   display: block;
   margin: 0 auto;
